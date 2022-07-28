@@ -1,0 +1,46 @@
+/* Untuk tablet */
+
+@media (max-width: 1000px) {
+    .info {
+        font-size:15px;
+        width: 50%;
+        padding: 0 20px;
+    }
+
+    .heading h3 {
+        border-bottom: 1px solid #333;
+    }
+
+    .sejajar li {
+        margin-bottom: 50px;
+    }
+
+    .btn-contact {
+        padding: 10px 17px;
+    }
+
+    footer {
+        padding: 20 25px;
+    }
+}
+
+/* Untuk hp */
+
+@media (max-width: 670px) {
+    .info {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .sejajar a {
+        font-size: 10px;
+      }
+      
+      .slogan {
+        font-size: 10px;
+      }
+
+      .nama-brand {
+        font-size: 15px;
+      }
+}
